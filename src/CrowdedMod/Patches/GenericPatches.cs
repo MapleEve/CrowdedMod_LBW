@@ -80,7 +80,7 @@ namespace CrowdedMod.Patches {
             public static void Postfix(PingTracker __instance)
             {
                 // __instance.text.autoSizeTextContainer = true; // 12.4s why?
-                __instance.text.text += "\n<color=#FFB793> 百人房模式 </color>";
+                __instance.text.text += "\n<color=#FFB793> 百人房模式</color>";
             }
         }
 
